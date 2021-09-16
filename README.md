@@ -7,7 +7,7 @@
 Posting previous Python project on GITHUB
 
 ### Description
-#The project uses git to post previous Python Project on GITHHU
+The project uses git to post previous Python Project on GITHHU
 
 ### Files used
 #Include the files used
