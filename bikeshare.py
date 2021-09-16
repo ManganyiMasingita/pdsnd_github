@@ -210,9 +210,9 @@ def filter_by_birth_year(df):
 def filter_birth(df):
     '''A function that filter the data of 1941,
     and it  print 7 rows'''
-    new_value = df[df['Birth Year'].isin([1941.0])].head(7)
-    print(new_value)
-    return new_value
+    updated_value = df[df['Birth Year'].isin([1941.0])].head(7)
+    print(updated_value)
+    return updated_value
 
 
 def main():
