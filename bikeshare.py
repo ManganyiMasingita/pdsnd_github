@@ -178,9 +178,9 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-def raw_data(df):
-    """The function that ask the user if they want to see raw data.
-    it print the 5 rows until the user said no"""
+def print_raw_data(df):
+    """This is the  function that ask the user if they want to see raw data.
+    If they said yes it print the 5 rows until the user said no"""
     #df1 = df
     length_row = df.shape[0]
 
