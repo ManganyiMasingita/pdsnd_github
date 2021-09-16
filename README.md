@@ -4,7 +4,7 @@
 16 September 2021
 
 ### Project Title
-#Posting previous Python project on GITHUB
+Posting previous Python project on GITHUB
 
 ### Description
 #The project uses git to post previous Python Project on GITHHU
