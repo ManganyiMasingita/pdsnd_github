@@ -13,5 +13,6 @@ The project uses git to post previous Python Project on GITHHU
 #Include the files used
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+My participation in the Udacity course is made possible by the Africa App Launchpad in partnership with the Egyptian government.
+
 
