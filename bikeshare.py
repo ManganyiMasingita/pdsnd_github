@@ -178,7 +178,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-def raw_data(df):
+def print_raw_data(df):
     """This is the  function that ask the user if they want to see raw data.
     If they said yes it print the 5 rows until the user said no"""
 
@@ -196,7 +196,7 @@ def raw_data(df):
         row_data = df.loc[i: i + 5]
         print(row_data)
 
-def birth_year_filter(df):
+def filter_by_birth_year(df):
 
     '''A function that group by birth year and
     counts the number of month for that year.
@@ -211,9 +211,9 @@ def birth_year_filter(df):
 def filter_birth(df):
     '''A function that filter the data of 1941,
     and it  print 7 rows'''
-    new_value = df[df['Birth Year'].isin([1941.0])].head(7)
-    print(new_value)
-    return new_value
+    updated_value = df[df['Birth Year'].isin([1941.0])].head(7)
+    print(updated_value)
+    return updated_value
 
 
 def main():
